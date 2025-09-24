@@ -1,0 +1,65 @@
+Kali Linux – Usuario: Liz
+Wed Sep 17 14:12:00 CDT 2025
+
+--- date ---
+Wed Sep 17 14:12:00 CDT 2025
+
+--- hostname ---
+Liz-vm
+
+--- uname -a ---
+Linux Liz-vm 6.1.0-Liz-amd64 #1 SMP Debian 6.1.0-7-amd64 x86_64 GNU/Linux
+
+--- whoami ---
+Liz
+
+--- pwd ---
+/home/Liz
+
+--- ls -l ---
+total 48
+drwxr-xr-x 2 Liz Liz 4096 Sep 10 10:12 Desktop
+drwxr-xr-x 3 Liz Liz 4096 Sep 12 09:01 Documents
+drwxr-xr-x 2 Liz Liz 4096 Sep 11 08:34 Downloads
+-rw-r--r-- 1 Liz Liz  220 Sep 10 10:12 .bash_logout
+-rw-r--r-- 1 Liz Liz 3771 Sep 10 10:12 .bashrc
+-rw-r--r-- 1 Liz Liz  807 Sep 10 10:12 .profile
+
+--- df -h ---
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           392M  2.1M  389M   1% /run
+/dev/sda1        30G   12G   17G  42% /
+tmpfs           2.0G   40M  1.9G   3% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           2.0G     0  2.0G   0% /sys/fs/cgroup
+
+--- free -m ---
+              total        used        free      shared  buff/cache   available
+Mem:           3883         612        2680          42         590        3020
+Swap:          2047           0        2047
+
+--- ip a ---
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 52:54:00:12:34:56 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.100/24 brd 192.168.1.255 scope global dynamic eth0
+       valid_lft 86399sec preferred_lft 86399sec
+
+--- ip route ---
+default via 192.168.1.1 dev eth0 proto dhcp src 192.168.1.100 metric 100
+192.168.1.0/24 dev eth0 proto kernel scope link src 192.168.1.100
+
+--- nslookup www.microsoft.com ---
+Server:		192.168.1.1
+Address:	192.168.1.1#53
+
+Non-authoritative answer:
+Name:    www.microsoft.com
+Address: 104.215.148.63
+Name:    www.microsoft.com
+Address: 20.84.181.62
+

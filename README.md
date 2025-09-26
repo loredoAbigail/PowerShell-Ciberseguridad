@@ -1,4 +1,18 @@
 # PowerShell-Ciberseguridad
-#El repositorio contiene ejercicios ya hechos a lo largo de la materia "Programación paa Ciberseguridad"
-#En cada carpeta se incluyen distintos tipos de scripts para hacer diferentes tareas, estos scripts contienen funciones, modulos y hasta menús.
-#Las tareas de cibersegurad que estos resuelven, por ejemplo, Auditoría de usuarios y servicios con módulo y manifiesto, Exploración inicial de Kali Linux en entorno virtual, etc.
+
+Este repositorio contiene ejercicios realizados durante la materia **Programación para Ciberseguridad**.
+
+## Estructura
+
+- Cada carpeta incluye distintos tipos de scripts para realizar diversas tareas.
+- Los scripts contienen funciones, módulos y menús interactivos.
+
+## Ejemplos de tareas de ciberseguridad abordadas
+
+- Auditoría de usuarios y servicios utilizando módulos y manifiestos.
+- Exploración inicial de Kali Linux en entorno virtual.
+- Automatización de procesos comunes en ciberseguridad.
+
+---
+
+> Explora las carpetas para encontrar ejemplos prácticos y útiles para fortalecer tus habilidades en PowerShell orientado a la ciberseguridad.

@@ -1,0 +1,6 @@
+Usuario | Estado de contraseña
+----------------------
+cintia | Fuerte
+andres | Fuerte
+abigail | Fuerte
+perla | Fuerte

@@ -32,8 +32,8 @@ Materia: *Programación para Ciberseguridad*
 Grupo: *061*
 ## Licencia
 Este proyecto se distribuye con fines educativos. El uso de la API de Have I Been Pwned está sujeto a sus [términos de servicio](https://haveibeenpwned.com/API/v3#AcceptableUse).
-
 ## Contacto
 
 
 Para dudas técnicas o sugerencias, puedes dejar comentarios en el repositorio de GitHub.
+
